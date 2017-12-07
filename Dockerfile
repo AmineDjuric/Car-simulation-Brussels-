@@ -9,12 +9,12 @@ ENV SUMO_USER amine
 
 # Install system dependencies.
 RUN apt-get update && apt-get -qq install \
-    wget \
     g++ \
     make \
     libxerces-c-dev \
     libfox-1.6-0 libfox-1.6-dev \
-    python2.7
+    python2.7\
+    unzip
 
 # Download and extract source code
 
