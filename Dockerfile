@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu
 
 MAINTAINER Djuric Amine (adjuric@ulb.ac.be)
 LABEL Description="Simulation of Urban MObility(SUMO)"
@@ -14,13 +14,13 @@ RUN apt-get update && apt-get -qq install \
     make \
     libxerces-c-dev \
     libfox-1.6-0 libfox-1.6-dev \
-    python2.7 \   
+    python2.7
 
 # Download and extract source code
 
-RUN unzip sumo-src-$SUMO_VERSION.zip && \
-    mv sumo-$SUMO_VERSION $SUMO_HOME && \
-    rm sumo-src-$SUMO_VERSION.zip
+RUN unzip sumo-src-$SUMO_VERSION.zip
+RUN mv sumo-$SUMO_VERSION $SUMO_HOME
+RUN rm sumo-src-$SUMO_VERSION.zip
 
 # Configure and build from source.
 RUN cd $SUMO_HOME && ./configure && make install
