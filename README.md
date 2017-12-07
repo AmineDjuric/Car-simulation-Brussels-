@@ -1,6 +1,6 @@
 # docker-sumo
 
-## The Map
+## Map
 Get the map file here:
 `https://www.dropbox.com/s/cwv5kumol9vl9cp/map.zip?dl=0`
 (The file is too heavy for Github)
