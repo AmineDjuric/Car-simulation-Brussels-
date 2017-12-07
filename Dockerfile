@@ -18,9 +18,9 @@ RUN apt-get update && apt-get -qq install \
 
 # Download and extract source code
 
-RUN tar xzf sumo-src-$SUMO_VERSION.tar.gz && \
+RUN unzip sumo-src-$SUMO_VERSION.zip && \
     mv sumo-$SUMO_VERSION $SUMO_HOME && \
-    rm sumo-src-$SUMO_VERSION.tar.gz
+    rm sumo-src-$SUMO_VERSION.zip
 
 # Configure and build from source.
 RUN cd $SUMO_HOME && ./configure && make install
