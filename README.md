@@ -12,7 +12,7 @@ Extract the file and put it in the same directory  as the docker file
 1. Build the image with `sudo docker build -t amine/sumo .`
 2. Run the image with
 ```
-docker run -it --rm\
+sudo docker run -it --rm\
     --env="DISPLAY" \
     --volume="/etc/group:/etc/group:ro" \
     --volume="/etc/passwd:/etc/passwd:ro" \
