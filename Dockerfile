@@ -17,7 +17,7 @@ RUN apt-get update && apt-get -qq install \
     python2.7 \   
 
 # Download and extract source code
-RUN wget http://downloads.sourceforge.net/project/sumo/sumo/version%20$SUMO_VERSION/sumo-src-$SUMO_VERSION.tar.gz
+
 RUN tar xzf sumo-src-$SUMO_VERSION.tar.gz && \
     mv sumo-$SUMO_VERSION $SUMO_HOME && \
     rm sumo-src-$SUMO_VERSION.tar.gz
