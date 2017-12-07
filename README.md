@@ -1,5 +1,12 @@
 # docker-sumo
 
+## The Map
+Get the map file here:
+`https://www.dropbox.com/s/cwv5kumol9vl9cp/map.zip?dl=0`
+(The file is too heavy for Github)
+Extract the file and put it in the same directory  as the docker file
+
+
 ## Build
 
 1. Build the image with `sudo docker build -t amine/sumo .`
