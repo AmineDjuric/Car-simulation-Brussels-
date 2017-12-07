@@ -26,6 +26,6 @@ docker run -it --rm\
 ```
 
 3. For the simulation of Brussels which is already ready:
-Go to `/usr/bin/amine` and execute the command: `sumo-gui map.sumo.cfg`
+Go to `/usr/bin/amine` (of de container) and execute the command: `sumo-gui map.sumo.cfg`
 
 5. Execute `sumo` or `sumo-gui` if you just want to launch the application.
