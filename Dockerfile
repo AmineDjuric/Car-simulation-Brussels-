@@ -3,12 +3,12 @@ FROM ubuntu:16.04
 MAINTAINER Djuric Amine (adjuric@ulb.ac.be)
 LABEL Description="Simulation of Urban MObility(SUMO)"
 
-ENV SUMO_VERSION 0.32.0
+ENV SUMO_VERSION 0.31.0
 ENV SUMO_HOME /opt/sumo
 ENV SUMO_USER amine
 
 # Install system dependencies.
-RUN apt-get update && apt-get -qq install wget g++ make libxerces-c-dev libfox-1.6-0 libfox-1.6-dev python2.7   
+RUN apt-get update && apt-get -qq install wget g++ make libxerces-c-dev libfox-1.6-0 libfox-1.6-dev python nano libproj-dev
 
 # Download and extract source code
 RUN wget http://downloads.sourceforge.net/project/sumo/sumo/version%20$SUMO_VERSION/sumo-src-$SUMO_VERSION.tar.gz
@@ -22,6 +22,21 @@ RUN adduser $SUMO_USER --disabled-password
 
 RUN mkdir /usr/bin/amine
 
-ADD map/* /usr/bin/amine/
+RUN mkdir /usr/bin/amine/EntireBxl
+
+RUN mkdir /usr/bin/amine/BxlCenter
+
+#ADD map/* /usr/bin/amine/EntireBxl/
+
+ADD map2/* /usr/bin/amine/BxlCenter/
+#ADD map2/* /usr/bin/amine/
+
+ADD osm2Sumo.sh /usr/bin/amine/BxlCenter/
+
+ADD typemap.xml /usr/bin/amine/BxlCenter/
+
+RUN export SUMO_HOME="/opt/sumo"
+
+RUN /usr/bin/amine/BxlCenter/./osm2Sumo.sh
 
 
