@@ -1,0 +1,98 @@
+,datetime,ID,lat,lon,avg_vel,address
+23898,2017-10-17 03:00:00,1595994575,4.360275,50.87185,35.04545454545455,<[OK] Mapquest - Reverse [Square Jules De Trooz - Jules De Troozsquare]>
+24058,2017-10-17 03:00:00,1130542186,4.347515,50.86129,0.0,<[OK] Mapquest - Reverse [Avenue du Port - Havenlaan]>
+26126,2017-10-17 04:00:00,1130542186,4.353671,50.86864,7.882352941176471,<[OK] Mapquest - Reverse [Avenue du Port - Havenlaan]>
+25838,2017-10-17 04:00:00,4263369928,4.361797,50.86745,21.95,<[OK] Mapquest - Reverse [Rue Destouvelles - Destouvellesstraat]>
+26234,2017-10-17 04:00:00,3036099770,4.352984,50.86658,0.0,<[OK] Mapquest - Reverse [Avenue du Port - Havenlaan]>
+24774,2017-10-17 04:00:00,1595994575,4.358945,50.87134,1.5714285714285714,<[OK] Mapquest - Reverse [AllÃ©e Verte - Groendreef]>
+27763,2017-10-17 05:00:00,1595994575,4.352142,50.8626,8.181818181818182,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+28373,2017-10-17 05:00:00,4247469238,4.359548,50.87113,0.0,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+26873,2017-10-17 05:00:00,75180076,4.359799,50.8718,0.0,<[OK] Mapquest - Reverse [AllÃ©e Verte - Groendreef]>
+26782,2017-10-17 05:00:00,3036099770,4.351577,50.86555,0.0,<[OK] Mapquest - Reverse [Ville de Bruxelles - Stad Brussel]>
+27477,2017-10-17 05:00:00,1130542186,4.348079,50.86204,14.257142857142858,<[OK] Mapquest - Reverse [Avenue du Port - Havenlaan]>
+27064,2017-10-17 05:00:00,1474772750,4.359799,50.87133,1.0,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+27211,2017-10-17 05:00:00,578781027,4.356021,50.85967,23.70731707317073,<[OK] Mapquest - Reverse [Rue du Peuple - Volksstraat]>
+27274,2017-10-17 05:00:00,603859455,4.353397,50.85723,14.513513513513514,<[OK] Mapquest - Reverse [ChaussÃ©e d'Anvers - Antwerpsesteenweg]>
+30162,2017-10-17 06:00:00,578781027,4.355904,50.85969,6.2631578947368425,<[OK] Mapquest - Reverse [Rue du Peuple - Volksstraat]>
+30929,2017-10-17 06:00:00,4247469238,4.355669,50.86116,14.647058823529411,<[OK] Mapquest - Reverse [Boulevard Simon Bolivar - Simon Bolivarlaan]>
+30645,2017-10-17 06:00:00,1606841784,4.358235,50.86369,8.821428571428571,<[OK] Mapquest - Reverse [Rue Rogier - Rogierstraat]>
+30686,2017-10-17 06:00:00,603859455,4.355301,50.85982,2.125,<[OK] Mapquest - Reverse [Rue du Peuple - Volksstraat]>
+29810,2017-10-17 06:00:00,75180076,4.359835,50.87103,16.266666666666666,<[OK] Mapquest - Reverse [AllÃ©e Verte - Groendreef]>
+29289,2017-10-17 06:00:00,1871092339,4.35892,50.86974,13.636363636363637,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+28771,2017-10-17 06:00:00,2701869097,4.360085,50.87257,14.722222222222221,<[OK] Mapquest - Reverse [Avenue de la Reine - Koninginnelaan]>
+29369,2017-10-17 06:00:00,3036099770,4.362659,50.86897,9.214285714285714,<[OK] Mapquest - Reverse [Rue Masui - Masuistraat]>
+29570,2017-10-17 06:00:00,1130542186,4.348434,50.85903,6.433333333333334,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+32551,2017-10-17 07:00:00,3036099770,4.351893,50.86646,17.0,<[OK] Mapquest - Reverse [Avenue du Port - Havenlaan]>
+32540,2017-10-17 07:00:00,1606841784,4.359799,50.87133,10.0,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+33263,2017-10-17 07:00:00,2701869097,4.359865,50.87128,8.526315789473685,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+32888,2017-10-17 07:00:00,4247469238,4.353791,50.86174,15.071428571428571,<[OK] Mapquest - Reverse [Boulevard Simon Bolivar - Simon Bolivarlaan]>
+32912,2017-10-17 07:00:00,4263369928,4.363153,50.86722,0.0,<[OK] Mapquest - Reverse [Rue Destouvelles - Destouvellesstraat]>
+31693,2017-10-17 07:00:00,578781027,4.358283,50.85874,3.5,<[OK] Mapquest - Reverse [Rue du MarchÃ© - Marktstraat]>
+32029,2017-10-17 07:00:00,75180076,4.35565,50.86116,8.133333333333333,<[OK] Mapquest - Reverse [Boulevard Simon Bolivar - Simon Bolivarlaan]>
+31731,2017-10-17 07:00:00,603859455,4.356858,50.85956,6.666666666666667,<[OK] Mapquest - Reverse [Rue des Charbonniers - Koolbrandersstraat]>
+32098,2017-10-17 07:00:00,1474772750,4.360188,50.87245,9.62962962962963,<[OK] Mapquest - Reverse [Avenue de la Reine - Koninginnelaan]>
+31938,2017-10-17 07:00:00,1871092339,4.354436,50.86447,14.285714285714286,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+34842,2017-10-17 08:00:00,3036099770,4.351681,50.86201,4.764705882352941,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+35066,2017-10-17 08:00:00,1595994575,4.359818,50.87135,13.217391304347826,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+34795,2017-10-17 08:00:00,1474772750,4.358155,50.86229,8.125,<[OK] Mapquest - Reverse [Boulevard du Roi Albert II - Koning Albert II-laan]>
+34713,2017-10-17 08:00:00,2701869097,4.358819,50.86354,5.333333333333333,<[OK] Mapquest - Reverse [Rue Rogier - Rogierstraat]>
+35366,2017-10-17 08:00:00,1606841784,4.359805,50.87199,12.052631578947368,<[OK] Mapquest - Reverse [Avenue de la Reine - Koninginnelaan]>
+35525,2017-10-17 08:00:00,4263369928,4.362125,50.8674,29.547169811320753,<[OK] Mapquest - Reverse [Rue Gaucheret - Gaucheretstraat]>
+35169,2017-10-17 08:00:00,4247469238,4.357006,50.86328,17.8,<[OK] Mapquest - Reverse [ChaussÃ©e d'Anvers - Antwerpsesteenweg]>
+33558,2017-10-17 08:00:00,75180076,4.359667,50.87139,11.0,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+33393,2017-10-17 08:00:00,603859455,4.357125,50.86088,4.666666666666667,<[OK] Mapquest - Reverse [Boulevard Simon Bolivar - Simon Bolivarlaan]>
+33399,2017-10-17 08:00:00,578781027,4.358899,50.85727,6.0,<[OK] Mapquest - Reverse [Rue du ProgrÃ¨s - Vooruitgangstraat]>
+33546,2017-10-17 08:00:00,1130542186,4.348132,50.86282,12.135135135135135,<[OK] Mapquest - Reverse [Rue Picard - Picardstraat]>
+34043,2017-10-17 08:00:00,1871092339,4.35822,50.8637,20.14814814814815,<[OK] Mapquest - Reverse [Rue Rogier - Rogierstraat]>
+37023,2017-10-17 09:00:00,578781027,4.358091,50.85833,4.6,<[OK] Mapquest - Reverse [Rue de la Bienfaisance - Weldadigheidsstraat]>
+37638,2017-10-17 09:00:00,1474772750,4.35729,50.86389,16.875,<[OK] Mapquest - Reverse [Rue Rogier - Rogierstraat]>
+37640,2017-10-17 09:00:00,603859455,4.358561,50.8591,4.4,<[OK] Mapquest - Reverse [Rue des Charbonniers - Koolbrandersstraat]>
+37723,2017-10-17 09:00:00,2701869097,4.359879,50.87114,12.45,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+37268,2017-10-17 09:00:00,75180076,4.359861,50.87111,12.631578947368421,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+37348,2017-10-17 09:00:00,1606841784,4.351655,50.865,11.25,<[OK] Mapquest - Reverse [Place des Armateurs - Redersplein]>
+35637,2017-10-17 09:00:00,1595994575,4.358957,50.86281,10.222222222222221,<[OK] Mapquest - Reverse [Boulevard du Roi Albert II - Koning Albert II-laan]>
+35691,2017-10-17 09:00:00,4263369928,4.362107,50.86723,23.681818181818183,<[OK] Mapquest - Reverse [Rue Gaucheret - Gaucheretstraat]>
+36232,2017-10-17 09:00:00,4247469238,4.360144,50.8715,9.333333333333334,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+36557,2017-10-17 09:00:00,149361818,4.358223,50.87374,29.96969696969697,<[OK] Mapquest - Reverse [Rue Marie-Christine - Maria-Christinastraat]>
+39052,2017-10-17 10:00:00,578781027,4.355801,50.85972,3.9411764705882355,<[OK] Mapquest - Reverse [Rue du Peuple - Volksstraat]>
+39087,2017-10-17 10:00:00,1474772750,4.359799,50.87133,11.066666666666666,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+38741,2017-10-17 10:00:00,3036099770,4.351995,50.8649,13.107142857142858,<[OK] Mapquest - Reverse [Place des Armateurs - Redersplein]>
+39572,2017-10-17 10:00:00,75180076,4.359268,50.87017,15.0,<[OK] Mapquest - Reverse [AllÃ©e Verte - Groendreef]>
+39290,2017-10-17 10:00:00,603859455,4.358159,50.85846,5.214285714285714,<[OK] Mapquest - Reverse [Rue du MarchÃ© - Marktstraat]>
+38059,2017-10-17 10:00:00,1595994575,4.359799,50.87133,13.961538461538462,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+38161,2017-10-17 10:00:00,1871092339,4.360275,50.87146,18.525,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+38169,2017-10-17 10:00:00,149361818,4.360744,50.87421,13.82258064516129,<[OK] Mapquest - Reverse [ChaussÃ©e de Vilvorde - Vilvoordsesteenweg]>
+37898,2017-10-17 10:00:00,1606841784,4.359169,50.87165,11.454545454545455,<[OK] Mapquest - Reverse [AllÃ©e Verte - Groendreef]>
+38443,2017-10-17 10:00:00,4247469238,4.358545,50.86363,10.166666666666666,<[OK] Mapquest - Reverse [Boulevard du Roi Albert II - Koning Albert II-laan]>
+38293,2017-10-17 10:00:00,4263369928,4.362178,50.86739,20.962962962962962,<[OK] Mapquest - Reverse [Rue Gaucheret - Gaucheretstraat]>
+38410,2017-10-17 10:00:00,2701869097,4.358109,50.86372,6.333333333333333,<[OK] Mapquest - Reverse [Rue Rogier - Rogierstraat]>
+40995,2017-10-17 11:00:00,578781027,4.357956,50.85816,7.705882352941177,<[OK] Mapquest - Reverse [Rue du MarchÃ© - Marktstraat]>
+41144,2017-10-17 11:00:00,149361818,4.359865,50.87364,18.346153846153847,<[OK] Mapquest - Reverse [ChaussÃ©e de Vilvorde - Vilvoordsesteenweg]>
+41155,2017-10-17 11:00:00,1606841784,4.351591,50.86502,11.1,<[OK] Mapquest - Reverse [Place des Armateurs - Redersplein]>
+41236,2017-10-17 11:00:00,603859455,4.358687,50.85906,4.1875,<[OK] Mapquest - Reverse [Rue des Charbonniers - Koolbrandersstraat]>
+40669,2017-10-17 11:00:00,4247469238,4.36026,50.87177,16.258064516129032,<[OK] Mapquest - Reverse [Avenue de la Reine - Koninginnelaan]>
+40436,2017-10-17 11:00:00,1474772750,4.353361,50.86871,13.633333333333333,<[OK] Mapquest - Reverse [Avenue du Port - Havenlaan]>
+40192,2017-10-17 11:00:00,4263369928,4.360837,50.87262,31.866666666666667,<[OK] Mapquest - Reverse [Square Jules De Trooz - Jules De Troozsquare]>
+40257,2017-10-17 11:00:00,2701869097,4.359738,50.87133,15.0,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+43037,2017-10-17 12:00:00,1871092339,4.358114,50.86372,19.857142857142858,<[OK] Mapquest - Reverse [Rue Rogier - Rogierstraat]>
+42749,2017-10-17 12:00:00,1474772750,4.360271,50.87234,15.476190476190476,<[OK] Mapquest - Reverse [Avenue de la Reine - Koninginnelaan]>
+42330,2017-10-17 12:00:00,149361818,4.348197,50.87703,19.30909090909091,<[OK] Mapquest - Reverse [Rue Marie-Christine - Maria-Christinastraat]>
+41666,2017-10-17 12:00:00,4263369928,4.362086,50.86718,8.0,<[OK] Mapquest - Reverse [Rue Gaucheret - Gaucheretstraat]>
+44061,2017-10-17 13:00:00,1606841784,4.350817,50.86554,8.921052631578947,<[OK] Mapquest - Reverse [Place des Armateurs - Redersplein]>
+44206,2017-10-17 13:00:00,1871092339,4.357976,50.86375,22.333333333333332,<[OK] Mapquest - Reverse [Rue Rogier - Rogierstraat]>
+44120,2017-10-17 13:00:00,1130542186,4.354484,50.86848,20.354166666666668,<[OK] Mapquest - Reverse [Avenue du Port - Havenlaan]>
+43159,2017-10-17 13:00:00,1595994575,4.359885,50.87115,15.983333333333333,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+43771,2017-10-17 13:00:00,75180076,4.359798,50.87133,14.390243902439025,<[OK] Mapquest - Reverse [Quai de Willebroeck - Willebroekkaai]>
+43639,2017-10-17 13:00:00,3036099770,4.360647,50.87237,16.675,<[OK] Mapquest - Reverse [Square Jules De Trooz - Jules De Troozsquare]>
+44669,2017-10-17 14:00:00,4247469238,4.360837,50.87262,15.39344262295082,<[OK] Mapquest - Reverse [Square Jules De Trooz - Jules De Troozsquare]>
+44329,2017-10-17 14:00:00,75180076,4.358934,50.87133,0.0,<[OK] Mapquest - Reverse [AllÃ©e Verte - Groendreef]>
+44444,2017-10-17 14:00:00,149361818,4.347653,50.87684,10.522727272727273,<[OK] Mapquest - Reverse [Place Ã‰mile Bockstael - Emile Bockstaelplein]>
+44602,2017-10-17 14:00:00,1130542186,4.3473,50.86099,1.0,<[OK] Mapquest - Reverse [Rue Van Meyel - Van Meyelstraat]>
+45422,2017-10-17 15:00:00,2701869097,4.360448,50.87211,23.88372093023256,<[OK] Mapquest - Reverse [Square Jules De Trooz - Jules De Troozsquare]>
+45552,2017-10-17 15:00:00,1606841784,4.359873,50.87143,13.40625,<[OK] Mapquest - Reverse [AllÃ©e Verte - Groendreef]>
+45229,2017-10-17 15:00:00,1474772750,4.361126,50.87297,14.41095890410959,<[OK] Mapquest - Reverse [Quai des Usines - Werkhuizenkaai]>
+45313,2017-10-17 15:00:00,149361818,4.34821,50.87218,13.692307692307692,<[OK] Mapquest - Reverse [Rue de Moorslede - Moorsledestraat]>
+45263,2017-10-17 15:00:00,1871092339,4.35816,50.86371,17.28735632183908,<[OK] Mapquest - Reverse [Rue Rogier - Rogierstraat]>
+46039,2017-10-17 16:00:00,3036099770,4.35184,50.86523,27.130434782608695,<[OK] Mapquest - Reverse [Place des Armateurs - Redersplein]>
+45829,2017-10-17 16:00:00,149361818,4.348854,50.87714,16.4,<[OK] Mapquest - Reverse [Rue Marie-Christine - Maria-Christinastraat]>
+46368,2017-10-17 17:00:00,3036099770,4.35268,50.86619,3.0,<[OK] Mapquest - Reverse [Avenue du Port - Havenlaan]>

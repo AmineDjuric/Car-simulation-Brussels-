@@ -1,0 +1,100 @@
+Street name: Place Emile Bockstael - Emile Bockstaelplein
+Average speed: 10.522727272727273
+Number of vehicle(s): 1
+
+Street name: Rue de Moorslede - Moorsledestraat
+Average speed: 13.692307692307692
+Number of vehicle(s): 1
+
+Street name: Rue Masui - Masuistraat
+Average speed: 9.214285714285714
+Number of vehicle(s): 1
+
+Street name: Rue de la Bienfaisance - Weldadigheidsstraat
+Average speed: 4.6
+Number of vehicle(s): 1
+
+Street name: Chaussée de Vilvorde - Vilvoordsesteenweg
+Average speed: 16.084367245657567
+Number of vehicle(s): 2
+
+Street name: Square Jules De Trooz - Jules De Troozsquare
+Average speed: 24.572856953060914
+Number of vehicle(s): 5
+
+Street name: Boulevard Simon Bolivar - Simon Bolivarlaan
+Average speed: 10.629621848739495
+Number of vehicle(s): 4
+
+Street name: Rue du Marché - Marktstraat
+Average speed: 5.473389355742298
+Number of vehicle(s): 3
+
+Street name: Quai de Willebroeck - Willebroekkaai
+Average speed: 10.719366852904155
+Number of vehicle(s): 20
+
+Street name: Rue Marie-Christine - Maria-Christinastraat
+Average speed: 21.892929292929296
+Number of vehicle(s): 3
+
+Street name: Quai des Usines - Werkhuizenkaai
+Average speed: 14.41095890410959
+Number of vehicle(s): 1
+
+Street name: Boulevard du Roi Albert II - Koning Albert II-laan
+Average speed: 9.504629629629628
+Number of vehicle(s): 3
+
+Street name: Rue Destouvelles - Destouvellesstraat
+Average speed: 10.975
+Number of vehicle(s): 2
+
+Street name: Avenue de la Reine - Koninginnelaan
+Average speed: 13.627747684623746
+Number of vehicle(s): 5
+
+Street name: Rue des Charbonniers - Koolbrandersstraat
+Average speed: 5.084722222222222
+Number of vehicle(s): 3
+
+Street name: Place des Armateurs - Redersplein
+Average speed: 14.301726054266101
+Number of vehicle(s): 5
+
+Street name: Rue Rogier - Rogierstraat
+Average speed: 14.623634487319832
+Number of vehicle(s): 8
+
+Street name: Avenue du Port - Havenlaan
+Average speed: 9.515874474789916
+Number of vehicle(s): 8
+
+Street name: Rue du Peuple - Volksstraat
+Average speed: 9.009162859623952
+Number of vehicle(s): 4
+
+Street name: Rue du Progrès - Vooruitgangstraat
+Average speed: 6.0
+Number of vehicle(s): 1
+
+Street name: Rue Gaucheret - Gaucheretstraat
+Average speed: 20.547987739025473
+Number of vehicle(s): 4
+
+Street name: Rue Van Meyel - Van Meyelstraat
+Average speed: 1.0
+Number of vehicle(s): 1
+
+Street name: Rue Picard - Picardstraat
+Average speed: 12.135135135135135
+Number of vehicle(s): 1
+
+Street name: Chaussée d'Anvers - Antwerpsesteenweg
+Average speed: 16.156756756756756
+Number of vehicle(s): 2
+
+Street name: Allée Verte - Groendreef
+Average speed: 9.616481782106781
+Number of vehicle(s): 7
+
