@@ -45,7 +45,7 @@
 
     <inductionLoop id="RueduProgresDetector" lane="417704274_0" pos="20" freq="1800" file="RueduProgresDetector_Output.xml"/>
 
-    <inductionLoop id="RueGaucheretDetector" lane="-22650694_0" pos="40" freq="1800" file="RueGaucheretDetector_Output.xml"/>
+    <inductionLoop id="RueduGaucheretDetector" lane="-22650694_0" pos="40" freq="1800" file="RueduGaucheretDetector_Output.xml"/>
 
     <inductionLoop id="RueVanMeyelDetector" lane="147940738#0_0" pos="90" freq="1800" file="RueVanMeyelDetector_Output.xml"/>
 
@@ -56,6 +56,5 @@
 	<inductionLoop id="AlleeVerteDetector1" lane="123488618#2_0" pos="510" freq="1800" file="AlleeVerteDetector_Output.xml"/>
 	<inductionLoop id="AlleeVerteDetecto2" lane="123488618#2_1" pos="510" freq="1800" file="AlleeVerteDetector_Output.xml"/>
 
-	
 </additional>
 

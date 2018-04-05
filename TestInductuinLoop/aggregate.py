@@ -3,6 +3,13 @@
 # Aggrégation du nombre de camions et leur vitesse moyenne par rue.
 
 
+
+def convert(speed):
+	# Converti une vitesse (km/h) en (m/s)
+	speed /= 3.6
+
+	return speed
+
 def getAddress(line):
 
 	address = line[-1]
@@ -26,9 +33,13 @@ def groupByAddress(matrix,dico):
 					val += elem[1]
 					count += 1.0
 
-			average = val / count
+			tmp = val / count
+			print(streetName,tmp)
+			average = convert(tmp)
+			print(streetName,average)
+			print()
 
-			string = "Street name: " + streetName + '\n' + "Average speed: " + str(average) + '\n' + "Number of vehicle(s): " + str(dico[streetName]) + '\n' + '\n'
+			string = "Street name: " + streetName + '\n' + "Average speed: " + str(average) + " m/s" + '\n' + "Number of vehicle(s): " + str(dico[streetName]) + '\n' + '\n'
 			f3.write(string)
 		
 
