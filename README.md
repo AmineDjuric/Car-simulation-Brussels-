@@ -21,10 +21,9 @@ sudo docker run -it \
     /bin/bash 
 ```
 
-3. For the simulation of Brussels which is already ready:
-Go to `/usr/bin/amine` and execute the command: `sumo-gui map.sumo.cfg` on the map you want
+3. The simulation of the area next the port of Brussels is already set and will start automatically (init.sh) after you launch the command of point (2.)
 
-4. Execute `sumo` or `sumo-gui` if you just want to launch the application.
+4. If you want to run the simulation you can also type `sumo` or `sumo-gui` if you just want to launch the application.
 
 
 ## Useful commands : 
