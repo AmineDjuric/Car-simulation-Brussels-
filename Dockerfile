@@ -47,9 +47,9 @@ ADD map/* /usr/bin/amine/EntireBxl/
 
 ADD map2/* /usr/bin/amine/BxlCenter/
 
-RUN mkdir /usr/bin/amine/test/
+RUN mkdir /usr/bin/amine/testDFROUTER/
 
-ADD TestDFROUTER/* /usr/bin/amine/test/
+ADD TestDFROUTER/* /usr/bin/amine/testDFROUTER/
 
 RUN mkdir /usr/bin/amine/portDeBruxelles
 
@@ -57,8 +57,16 @@ ADD PortDeBruxelles/* /usr/bin/amine/portDeBruxelles/
 
 ADD TestInductionLoop/* /usr/bin/amine/IL/
 
+RUN mkdir /usr/bin/amine/IL/InductionLoopsStatistics/
+
 #RUN /usr/bin/amine/portDeBruxelles/./osm2Sumo.sh
+
+RUN apt-get -y install bc
 
 RUN /usr/bin/amine/IL/./osm2Sumo.sh
 
-ENTRYPOINT ["/usr/bin/amine//IL/init.sh"]
+#RUN /usr/bin/amine/testDFROUTER/./osm2Sumo.sh 
+
+ENTRYPOINT ["/usr/bin/amine/IL/init.sh"]
+
+#ENTRYPOINT ["/usr/bin/amine/testDFROUTER/init.sh"]
