@@ -1,0 +1,75 @@
+amine@846c7b92a661:/opt/sumo/tools$ python randomTrips.py --help
+Usage: randomTrips.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -n NETFILE, --net-file=NETFILE
+                        define the net file (mandatory)
+  -a ADDITIONAL, --additional-files=ADDITIONAL
+                        define additional files to be loaded by the router
+  -o TRIPFILE, --output-trip-file=TRIPFILE
+                        define the output trip filename
+  -r ROUTEFILE, --route-file=ROUTEFILE
+                        generates route file with duarouter
+  --weights-prefix=WEIGHTSPREFIX
+                        loads probabilities for being source, destination and
+                        via-edge from the files named <prefix>.src.xml,
+                        <prefix>.sink.xml and <prefix>.via.xml
+  --weights-output-prefix=WEIGHTS_OUTPREFIX
+                        generates weights files for visualisation
+  --pedestrians         create a person file with pedestrian trips instead of
+                        vehicle trips
+  --persontrips         create a person file with person trips instead of
+                        vehicle trips
+  --prefix=TRIPPREFIX   prefix for the trip ids
+  -t TRIPATTRS, --trip-attributes=TRIPATTRS
+                        additional trip attributes. When generating
+                        pedestrians, attributes for <person> and <walk> are
+                        supported.
+  -b BEGIN, --begin=BEGIN
+                        begin time
+  -e END, --end=END     end time (default 3600)
+  -p PERIOD, --period=PERIOD
+                        Generate vehicles with equidistant departure times and
+                        period=FLOAT (default 1.0). If option --binomial is
+                        used, the expected arrival rate is set to 1/period.
+  -s SEED, --seed=SEED  random seed
+  -l, --length          weight edge probability by length
+  -L, --lanes           weight edge probability by number of lanes
+  --speed-exponent=SPEED_EXPONENT
+                        weight edge probability by speed^<FLOAT> (default 0)
+  --fringe-factor=FRINGE_FACTOR
+                        multiply weight of fringe edges by <FLOAT> (default 1
+  --fringe-threshold=FRINGE_THRESHOLD
+                        only consider edges with speed above <FLOAT> as fringe
+                        edges (default 0)
+  --allow-fringe        Allow departing on edges that leave the network and
+                        arriving on edges that enter the network (via
+                        turnarounds or as 1-edge trips
+  --min-distance=MIN_DISTANCE
+                        require start and end edges for each trip to be at
+                        least <FLOAT> m appart
+  --max-distance=MAX_DISTANCE
+                        require start and end edges for each trip to be at
+                        most <FLOAT> m appart (default 0 which disables any
+                        checks)
+  -i INTERMEDIATE, --intermediate=INTERMEDIATE
+                        generates the given number of intermediate way points
+  --flows=FLOWS         generates INT flows that together output vehicles with
+                        the specified period
+  --maxtries=MAXTRIES   number of attemps for finding a trip which meets the
+                        distance constraints
+  --binomial=N          If this is set, the number of departures per seconds
+                        will be drawn from a binomial distribution with n=N
+                        and p=PERIOD/N where PERIOD is the argument given to
+                        option --period. Tnumber of attemps for finding a trip
+                        which meets the distance constraints
+  -c VCLASS, --vclass=VCLASS, --edge-permission=VCLASS
+                        only from and to edges which permit the given vehicle
+                        class
+  --vehicle-class=VEHICLE_CLASS
+                        The vehicle class assigned to the generated trips
+                        (adds a standard vType definition to the output file).
+  --validate            Whether to produce trip output that is already checked
+                        for connectivity
+  -v, --verbose         tell me what you are doing

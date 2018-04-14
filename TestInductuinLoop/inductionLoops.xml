@@ -1,60 +1,60 @@
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
 
-    <inductionLoop id="PlaceEmileBockstaelDetector" lane="26349983#0_0" pos="70" freq="1800" file="PlaceEmileBockstaelDetector_Output.xml"/>
+    <inductionLoop id="PlaceEmileBockstaelDetector" lane="26349983#0_0" pos="70" freq="50400" file="InductionLoopsStatistics/PlaceEmileBockstaelDetector_Output.xml"/>
 
-    <inductionLoop id="RueDeMoorsledeDetector" lane="26350343#0_0" pos="110" freq="1800" file="RueDeMoorsledeDetector_Output.xml"/>
+    <inductionLoop id="RueDeMoorsledeDetector" lane="26350343#0_0" pos="110" freq="50400" file="InductionLoopsStatistics/RueDeMoorsledeDetector_Output.xml"/>
 
-    <inductionLoop id="RueMasuiDetector" lane="293271347#1_0" pos="110" freq="1800" file="RueMasuiDetector_Output.xml"/>
+    <inductionLoop id="RueMasuiDetector" lane="293271347#1_0" pos="110" freq="50400" file="InductionLoopsStatistics/RueMasuiDetector_Output.xml"/>
 
-    <inductionLoop id="RuedelaBienfaisanceDetector" lane="32759117#0_0" pos="60" freq="1800" file="RuedelaBienfaisanceDetector_Output.xml"/>
+    <inductionLoop id="RuedelaBienfaisanceDetector" lane="32759117#0_0" pos="60" freq="50400" file="InductionLoopsStatistics/RuedelaBienfaisanceDetector_Output.xml"/>
 
-    <inductionLoop id="ChausseedeVilvordeDetector1" lane="308512152#0_0" pos="920" freq="1800" file="ChausseedeVilvordeDetector_Output.xml"/>
-    <inductionLoop id="ChausseedeVilvordeDetector2" lane="308512152#0_1" pos="920" freq="1800" file="ChausseedeVilvordeDetector_Output.xml"/>
+    <inductionLoop id="ChausseedeVilvordeDetector1" lane="123488612#1_0" pos="20" freq="50400" file="InductionLoopsStatistics/ChausseedeVilvordeDetector_Output.xml"/>
+    <inductionLoop id="ChausseedeVilvordeDetector2" lane="123488612#1_1" pos="20" freq="50400" file="InductionLoopsStatistics/ChausseedeVilvordesDetector_Output.xml"/>
 
-    <inductionLoop id="SquareJulesDeTroozDetector1" lane="-348746115#0_0" pos="40" freq="1800" file="SquareJulesDeTroozDetector_Output.xml"/>
-    <inductionLoop id="SquareJulesDeTroozDetector2" lane="-348746115#0_1" pos="40" freq="1800" file="SquareJulesDeTroozDetector_Output.xml"/>
+    <inductionLoop id="SquareJulesDeTroozDetector1" lane="-348746115#0_0" pos="40" freq="50400" file="InductionLoopsStatistics/SquareJulesDeTroozDetector_Output.xml"/>
+    <inductionLoop id="SquareJulesDeTroozDetector2" lane="-348746115#0_1" pos="40" freq="50400" file="InductionLoopsStatistics/SquareJulesDeTroozDetector_Output.xml"/>
 
     
-    <inductionLoop id="BoulevardSimonBolivarDetector1" lane="8295114#4_0" pos="100" freq="1800" file="BoulevardSimonBolivarDetector_Output.xml"/>
-    <inductionLoop id="BoulevardSimonBolivarDetector2" lane="8295114#4_1" pos="100" freq="1800" file="BoulevardSimonBolivarDetector_Output.xml"/>
+    <inductionLoop id="BoulevardSimonBolivarDetector1" lane="8295114#4_0" pos="100" freq="50400" file="InductionLoopsStatistics/BoulevardSimonBolivarDetector_Output.xml"/>
+    <inductionLoop id="BoulevardSimonBolivarDetector2" lane="8295114#4_1" pos="100" freq="50400" file="InductionLoopsStatistics/BoulevardSimonBolivarDetector_Output.xml"/>
 
-    <inductionLoop id="RueduMarcheDetector" lane="249534774#3_0" pos="50" freq="1800" file="RueduMarcheDetector_Output.xml"/>
+    <inductionLoop id="RueduMarcheDetector" lane="249534774#3_0" pos="50" freq="50400" file="InductionLoopsStatistics/RueduMarcheDetector_Output.xml"/>
 
-    <inductionLoop id="QuaideWillebroeckDetector" lane="23230952#2_0" pos="240" freq="1800" file="QuaideWillebroeckDetector_Output.xml"/>
+    <inductionLoop id="QuaideWillebroeckDetector" lane="23230952#2_0" pos="240" freq="50400" file="InductionLoopsStatistics/QuaideWillebroeckDetector_Output.xml"/>
 
-    <inductionLoop id="RueMarie-ChristineDetector" lane="-26349983#5_0" pos="80" freq="1800" file="RueMarie-ChristineDetector_Output.xml"/>
+    <inductionLoop id="RueMarie-ChristineDetector" lane="-26349983#5_0" pos="80" freq="50400" file="InductionLoopsStatistics/RueMarie-ChristineDetector_Output.xml"/>
    
-   	<inductionLoop id="QuaidesUsinesDetector" lane="348453262#2_0" pos="70" freq="1800" file="QuaidesUsinesDetector_Output.xml"/>
+   	<inductionLoop id="QuaidesUsinesDetector" lane="348453262#2_0" pos="70" freq="50400" file="InductionLoopsStatistics/QuaidesUsinesDetector_Output.xml"/>
    
-    <inductionLoop id="BoulevardduRoiAlbert2Detector" lane="32759215#1_0" pos="60" freq="1800" file="BoulevardduRoiAlbert2Detector_Output.xml"/>
+    <inductionLoop id="BoulevardduRoiAlbert2Detector" lane="32759215#1_0" pos="60" freq="50400" file="InductionLoopsStatistics/BoulevardduRoiAlbert2Detector_Output.xml"/>
 
-    <inductionLoop id="RueDestouvellesDetector" lane="-15895245#1_0" pos="40" freq="1800" file="RueDestouvellesDetector_Output.xml"/>
+    <inductionLoop id="RueDestouvellesDetector" lane="-15895245#1_0" pos="40" freq="50400" file="InductionLoopsStatistics/RueDestouvellesDetector_Output.xml"/>
 
-    <inductionLoop id="AvenuedelaReineDetector1" lane="29028533_0" pos="40" freq="1800" file="AvenuedelaReineDetector_Output.xml"/>
-    <inductionLoop id="AvenuedelaReineDetector2" lane="29028533_1" pos="40" freq="1800" file="AvenuedelaReineDetector_Output.xml"/>
+    <inductionLoop id="AvenuedelaReineDetector1" lane="29028533_0" pos="40" freq="50400" file="InductionLoopsStatistics/AvenuedelaReineDetector_Output.xml"/>
+    <inductionLoop id="AvenuedelaReineDetector2" lane="29028533_1" pos="40" freq="50400" file="InductionLoopsStatistics/AvenuedelaReineDetector_Output.xml"/>
 
-    <inductionLoop id="RuedesCharbonniersDetector" lane="73992290#0_0" pos="70" freq="1800" file="RuedesCharbonniersDetector_Output.xml"/>
+    <inductionLoop id="RuedesCharbonniersDetector" lane="73992290#0_0" pos="70" freq="50400" file="InductionLoopsStatistics/RuedesCharbonniersDetector_Output.xml"/>
 
-    <inductionLoop id="PlacedesArmateursDetector" lane="41220240#1_0" pos="40" freq="1800" file="PlacedesArmateursDetector_Output.xml"/>
+    <inductionLoop id="PlacedesArmateursDetector" lane="41220240#1_0" pos="40" freq="50400" file="InductionLoopsStatistics/PlacedesArmateursDetector_Output.xml"/>
 
-    <inductionLoop id="RueRogierDetector" lane="-22262322#0_0" pos="50" freq="1800" file="RueRogierDetector_Output.xml"/>
+    <inductionLoop id="RueRogierDetector" lane="-22262322#0_0" pos="50" freq="50400" file="InductionLoopsStatistics/RueRogierDetector_Output.xml"/>
 
-    <inductionLoop id="AvenueduPortDetector" lane="404614546#0_0" pos="80" freq="1800" file="AvenueduPortDetector_Output.xml"/>
+    <inductionLoop id="AvenueduPortDetector" lane="404614546#0_0" pos="80" freq="50400" file="InductionLoopsStatistics/AvenueduPortDetector_Output.xml"/>
 
-    <inductionLoop id="RueduPeupleDetector" lane="14590428_0" pos="60" freq="1800" file="RueduPeupleDetector_Output.xml"/>
+    <inductionLoop id="RueduPeupleDetector" lane="14590428_0" pos="60" freq="50400" file="InductionLoopsStatistics/RueduPeupleDetector_Output.xml"/>
 
-    <inductionLoop id="RueduProgresDetector" lane="417704274_0" pos="20" freq="1800" file="RueduProgresDetector_Output.xml"/>
+    <inductionLoop id="RueduProgresDetector" lane="417704274_0" pos="20" freq="50400" file="InductionLoopsStatistics/RueduProgresDetector_Output.xml"/>
 
-    <inductionLoop id="RueduGaucheretDetector" lane="-22650694_0" pos="40" freq="1800" file="RueduGaucheretDetector_Output.xml"/>
+    <inductionLoop id="RueduGaucheretDetector" lane="-22650694_0" pos="40" freq="50400" file="InductionLoopsStatistics/RueduGaucheretDetector_Output.xml"/>
 
-    <inductionLoop id="RueVanMeyelDetector" lane="147940738#0_0" pos="90" freq="1800" file="RueVanMeyelDetector_Output.xml"/>
+    <inductionLoop id="RueVanMeyelDetector" lane="147940738#0_0" pos="90" freq="50400" file="InductionLoopsStatistics/RueVanMeyelDetector_Output.xml"/>
 
-	<inductionLoop id="RuePicardDetector" lane="-411776530#1_0" pos="40" freq="1800" file="RuePicardDetector_Output.xml"/>
+	<inductionLoop id="RuePicardDetector" lane="-411776530#1_0" pos="40" freq="50400" file="InductionLoopsStatistics/RuePicardDetector_Output.xml"/>
 
-	<inductionLoop id="ChausseedAnversDetector" lane="-444619078#0_0" pos="60" freq="1800" file="ChausseedAnversDetector_Output.xml"/>
+	<inductionLoop id="ChausseedAnversDetector" lane="-444619078#0_0" pos="60" freq="50400" file="InductionLoopsStatistics/ChausseedAnversDetector_Output.xml"/>
 
-	<inductionLoop id="AlleeVerteDetector1" lane="123488618#2_0" pos="510" freq="1800" file="AlleeVerteDetector_Output.xml"/>
-	<inductionLoop id="AlleeVerteDetecto2" lane="123488618#2_1" pos="510" freq="1800" file="AlleeVerteDetector_Output.xml"/>
+	<inductionLoop id="AlleeVerteDetector1" lane="123488618#2_0" pos="510" freq="50400" file="InductionLoopsStatistics/AlleeVerteDetector_Output.xml"/>
+	<inductionLoop id="AlleeVerteDetecto2" lane="123488618#2_1" pos="510" freq="50400" file="InductionLoopsStatistics/AlleeVerteDetector_Output.xml"/>
 
 </additional>
 

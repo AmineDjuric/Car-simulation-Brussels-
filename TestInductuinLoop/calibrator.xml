@@ -5,7 +5,7 @@
 
   <calibrator id="PlaceEmileBockstaelCalibrator" edge="26349983#0" pos="60" output="calibratorOutput.xml" routeProbe="r1">
   	<route id="r1_fallback" edges="26349983#0"/>
-    <flow begin="0" end="50400" route="r1" vehsPerHour="0.007" speed="2.92"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r1" vehsPerHour="7" speed="2.92"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   
@@ -14,7 +14,7 @@
 
   <calibrator id="RueDeMoorsledeCalibrator" edge="26350343#0" pos="100" output="calibratorOutput.xml" routeProbe="r2">
   	<route id="r2_fallback" edges="26350343#0"/>
-    <flow begin="0" end="50400" route="r2" vehsPerHour="0.071" speed="3.8034"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r2" vehsPerHour="7" speed="3.8034"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t2"/>
@@ -22,7 +22,7 @@
 
   <calibrator id="RueMasuiCalibrator" edge="293271347#1" pos="100" output="calibratorOutput.xml" routeProbe="r3">
   	<route id="r3_fallback" edges="293271347#1"/>
-    <flow begin="0" end="50400" route="r3" vehsPerHour="0.007" speed="2.559"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r3" vehsPerHour="7" speed="2.559"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t3"/>
@@ -30,15 +30,15 @@
 
   <calibrator id="RuedelaBienfaisanceCalibrator" edge="32759117#0" pos="50" output="calibratorOutput.xml" routeProbe="r4">
   	<route id="r4_fallback" edges="32759117#0"/>
-    <flow begin="0" end="50400" route="r4" vehsPerHour="0.007" speed="1.277"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r4" vehsPerHour="7" speed="1.277"  departPos="free" departSpeed="max"/>
   </calibrator>
   
   <vType id="t4"/>
-  <routeProbe id="r5" edge="308512152#0" freq="50400" file="routeProbeOutput.xml"/>
+  <routeProbe id="r5" edge="123488612#1" freq="50400" file="routeProbeOutput.xml"/>
 
-  <calibrator id="ChausseedeVilvordeCalibrator" edge="308512152#0" pos="900" output="calibratorOutput.xml" routeProbe="r5">
-  	<route id="r5_fallback" edges="308512152#0"/>
-    <flow begin="0" end="50400" route="r5" vehsPerHour="0.1428" speed="4.4678"  departPos="free" departSpeed="max"/>
+  <calibrator id="ChausseedeVilvordeCalibrator" edge="123488612#1" pos="10" output="calibratorOutput.xml" routeProbe="r5">
+  	<route id="r5_fallback" edges="123488612#1"/>
+    <flow begin="0" end="50400" route="r5" vehsPerHour="4" speed="4.4678"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t5"/>
@@ -46,7 +46,7 @@
 
   <calibrator id="SquareJulesDeTroozCalibrator" edge="-348746115#0" pos="20" output="calibratorOutput.xml" routeProbe="r6">
   	<route id="r6_fallback" edges="-348746115#0"/>
-    <flow begin="0" end="50400" route="r6" vehsPerHour="0.35" speed="6.82"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r6" vehsPerHour="5" speed="6.82"  departPos="free" departSpeed="max"/>
   </calibrator>
   
   <vType id="t6"/>
@@ -54,7 +54,7 @@
 
   <calibrator id="BoulevardSimonBolivarCalibrator" edge="8295114#4" pos="80" output="calibratorOutput.xml" routeProbe="r7">
   	<route id="r7_fallback" edges="8295114#4"/>
-    <flow begin="0" end="50400" route="r7" vehsPerHour="0.28" speed="2.95"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r7" vehsPerHour="8" speed="2.95"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t7"/>
@@ -62,7 +62,7 @@
 
   <calibrator id="RueduMarcheCalibrator" edge="249534774#3" pos="40" output="calibratorOutput.xml" routeProbe="r8">
   	<route id="r8_fallback" edges="249534774#3"/>
-    <flow begin="0" end="50400" route="r8" vehsPerHour="0.21" speed="1.52"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r8" vehsPerHour="2" speed="1.52"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t8"/>
@@ -70,7 +70,7 @@
 
   <calibrator id="QuaideWillebroeckCalibrator" edge="23230952#2" pos="230" output="calibratorOutput.xml" routeProbe="r9">
   	<route id="r9_fallback" edges="23230952#2"/>
-    <flow begin="0" end="50400" route="r9" vehsPerHour="1.4285" speed="2.977"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r9" vehsPerHour="2" speed="2.977"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t9"/>
@@ -78,7 +78,7 @@
 
   <calibrator id="RueMarie-ChristineCalibrator" edge="-26349983#5" pos="70" output="calibratorOutput.xml" routeProbe="r10">
   	<route id="r10_fallback" edges="-26349983#5"/>
-    <flow begin="0" end="50400" route="r10" vehsPerHour="0.214" speed="6.08"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r10" vehsPerHour="2" speed="6.08"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t10"/>
@@ -86,7 +86,7 @@
 
   <calibrator id="QuaidesUsinesCalibrator" edge="348453262#2" pos="60" output="calibratorOutput.xml" routeProbe="r11">
   	<route id="r11_fallback" edges="348453262#2"/>
-    <flow begin="0" end="50400" route="r11" vehsPerHour="0.007" speed="4.003"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r11" vehsPerHour="7" speed="4.003"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t11"/>
@@ -94,7 +94,7 @@
 
   <calibrator id="BoulevardduRoiAlbert2Calibrator" edge="32759215#1" pos="50" output="calibratorOutput.xml" routeProbe="r12">
   	<route id="r12_fallback" edges="32759215#1"/>
-    <flow begin="0" end="50400" route="r12" vehsPerHour="0..214" speed="2.64"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r12" vehsPerHour="4" speed="2.64"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t12"/>
@@ -102,7 +102,7 @@
 
   <calibrator id="RueDestouvellesCalibrator" edge="-15895245#1" pos="30" output="calibratorOutput.xml" routeProbe="r13">
   	<route id="r13_fallback" edges="-15895245#1"/>
-    <flow begin="0" end="50400" route="r13" vehsPerHour="0.14" speed="5.7"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r13" vehsPerHour="4" speed="5.7"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t13"/>
@@ -110,7 +110,7 @@
 
   <calibrator id="AvenuedelaReineCalibrator" edge="29028533" pos="30" output="calibratorOutput.xml" routeProbe="r14">
   	<route id="r14_fallback" edges="29028533"/>
-    <flow begin="0" end="50400" route="r14" vehsPerHour="0.35" speed="3.78"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r14" vehsPerHour="5" speed="3.78"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t14"/>
@@ -118,7 +118,7 @@
 
   <calibrator id="RuedesCharbonniersCalibrator" edge="73992290#0" pos="60" output="calibratorOutput.xml" routeProbe="r15">
   	<route id="r15_fallback" edges="73992290#0"/>
-    <flow begin="0" end="50400" route="r15" vehsPerHour="0.214" speed="1.4124"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r15" vehsPerHour="4" speed="1.4124"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t15"/>
@@ -126,7 +126,7 @@
 
   <calibrator id="PlacedesArmateursCalibrator" edge="41220240#1" pos="30" output="calibratorOutput.xml" routeProbe="r16">
   	<route id="r16_fallback" edges="41220240#1"/>
-    <flow begin="0" end="50400" route="r16" vehsPerHour="0.357" speed="3.97"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r16" vehsPerHour="7" speed="3.97"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t16"/>
@@ -134,7 +134,7 @@
 
   <calibrator id="RueRogierCalibrator" edge="-22262322#0" pos="40" output="calibratorOutput.xml" routeProbe="r17">
   	<route id="r17_fallback" edges="-22262322#0"/>
-    <flow begin="0" end="50400" route="r17" vehsPerHour="0.57" speed="4.06"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r17" vehsPerHour="7" speed="4.06"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t17"/>
@@ -142,7 +142,7 @@
 
   <calibrator id="AvenueduPortCalibrator" edge="404614546#0" pos="70" output="calibratorOutput.xml" routeProbe="r18">
   	<route id="r18_fallback" edges="404614546#0"/>
-    <flow begin="0" end="50400" route="r18" vehsPerHour="0.5714" speed="2.64"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r18" vehsPerHour="4" speed="2.64"  departPos="free" departSpeed="max"/>
   </calibrator>
 
 
@@ -151,7 +151,7 @@
 
   <calibrator id="RueduPeupleCalibrator" edge="14590428" pos="50" output="calibratorOutput.xml" routeProbe="r19">
   	<route id="r19_fallback" edges="14590428"/>
-    <flow begin="0" end="50400" route="r19" vehsPerHour="0.28" speed="2.50"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r19" vehsPerHour="8" speed="2.50"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t19"/>
@@ -159,7 +159,7 @@
 
   <calibrator id="RueduProgresCalibrator" edge="417704274" pos="10" output="calibratorOutput.xml" routeProbe="r20">
   	<route id="r20_fallback" edges="417704274"/>
-    <flow begin="0" end="50400" route="r20" vehsPerHour="0.007" speed="1.666"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r20" vehsPerHour="7" speed="1.666"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t20"/>
@@ -167,7 +167,7 @@
 
   <calibrator id="RueduGaucheretCalibrator" edge="-22650694" pos="20" output="calibratorOutput.xml" routeProbe="r21">
   	<route id="r21_fallback" edges="-22650694"/>
-    <flow begin="0" end="50400" route="r21" vehsPerHour="0.28" speed="5.7" departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r21" vehsPerHour="8" speed="5.7" departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t21"/>
@@ -175,7 +175,7 @@
 
   <calibrator id="RueVanMeyelCalibrator" edge="147940738#0" pos="80" output="calibratorOutput.xml" routeProbe="r22">
   	<route id="r22_fallback" edges="147940738#0"/>
-    <flow begin="0" end="50400" route="r22" vehsPerHour="0.007" speed="0.277"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r22" vehsPerHour="7" speed="0.277"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t22"/>
@@ -183,7 +183,7 @@
 
   <calibrator id="RuePicardCalibrator" edge="-411776530#1" pos="30" output="calibratorOutput.xml" routeProbe="r23">
   	<route id="r23_fallback" edges="-411776530#1"/>
-    <flow begin="0" end="50400" route="r23" vehsPerHour="0.007" speed="3.37"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r23" vehsPerHour="7" speed="3.37"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t23"/>
@@ -191,7 +191,7 @@
 
   <calibrator id="ChausseedAnversCalibrator" edge="-444619078#0" pos="50" output="calibratorOutput.xml" routeProbe="r24">
   	<route id="r24_fallback" edges="-444619078#0"/>
-    <flow begin="0" end="50400" route="r24" vehsPerHour="0.142" speed="4.487"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r24" vehsPerHour="4" speed="4.487"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   <vType id="t24"/>
@@ -199,7 +199,7 @@
 
   <calibrator id="AlleeVerteCalibrator" edge="123488618#2" pos="500" output="calibratorOutput.xml" routeProbe="r25">
   	<route id="r25_fallback" edges="123488618#2"/>
-    <flow begin="0" end="50400" route="r25" vehsPerHour="0.5" speed="2.289"  departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r25" vehsPerHour="5" speed="2.289"  departPos="free" departSpeed="max"/>
   </calibrator>
 
   
@@ -217,8 +217,8 @@
 
   <calibrator id="calibrator1" edge="19802949#0" pos="75" output="calibratorOutput.xml" routeProbe="r1">
 
-    <flow begin="0" end="50400" route="r1" vehsPerHour="250" speed="27.8"  departPos="free" departSpeed="max"/>
-    <flow begin="1800" end="3600" route="r1" vehsPerHour="250" speed="15.0" departPos="free" departSpeed="max"/>
+    <flow begin="0" end="50400" route="r1" vehsPerHour="0" speed="27.8"  departPos="free" departSpeed="max"/>
+    <flow begin="1800" end="3600" route="r1" vehsPerHour="0" speed="15.0" departPos="free" departSpeed="max"/>
 
   </calibrator>
 

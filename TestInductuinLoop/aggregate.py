@@ -34,12 +34,9 @@ def groupByAddress(matrix,dico):
 					count += 1.0
 
 			tmp = val / count
-			print(streetName,tmp)
 			average = convert(tmp)
-			print(streetName,average)
-			print()
 
-			string = "Street name: " + streetName + '\n' + "Average speed: " + str(average) + " m/s" + '\n' + "Number of vehicle(s): " + str(dico[streetName]) + '\n' + '\n'
+			string = "Street name: " + streetName + '\n' + "Average speed: " + str(average) + " m/s" + '\n' + "Number of vehicle(s): " +str(dico[streetName])+'\n'+'\n'
 			f3.write(string)
 		
 
