@@ -23,10 +23,17 @@ sudo docker run --name="SumoContainer" \
     /bin/bash
 ```
 
-3. For the simulation of Brussels which is already ready:
-Go to `/usr/bin/amine` and execute the command: `sumo-gui map.sumo.cfg` on the map you want
+3. When the simulation ends, you have to open another terminal (without closing the docker !) and type:
 
-4. Execute `sumo` or `sumo-gui` if you just want to launch the application.
+( - `containterId=$(sudo docker ps -aq --filter name=SumoContainer)`
+
+ - `sudo docker cp $containterId:/home/SumoStats/ /home/amine/Desktop`
+
+)
+
+
+ -> `sudo docker cp SumoContainer:/home/SumoStats/ /home/amine/Desktop`
+
 
 
 ## Useful commands : 
