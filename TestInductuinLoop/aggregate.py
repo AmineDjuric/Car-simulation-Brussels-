@@ -2,6 +2,8 @@
 # Djuric Amine
 # Aggregation du nombre de camions et leur vitesse moyenne par rue.
 
+
+
 def convert(speed):
 	# Converti une vitesse (km/h) en (m/s)
 	speed /= 3.6

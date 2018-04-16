@@ -8,15 +8,11 @@
 
     <inductionLoop id="WeldadigheidsstraatDetector" lane="32759117#0_0" pos="60" freq="50400" file="InductionLoopsStatistics/WeldadigheidsstraatDetector_Output.xml"/>
 
-    <inductionLoop id="VilvoordsesteenwegDetector1" lane="123488612#1_0" pos="20" freq="50400" file="InductionLoopsStatistics/VilvoordsesteenwegDetector_Output.xml"/>
-    <inductionLoop id="VilvoordsesteenwegDetector2" lane="123488612#1_1" pos="20" freq="50400" file="InductionLoopsStatistics/VilvoordsesteenwegsDetector_Output.xml"/>
+    <inductionLoop id="VilvoordsesteenwegDetector" lane="123488612#1_0" pos="20" freq="50400" file="InductionLoopsStatistics/VilvoordsesteenwegDetector_Output.xml"/>
 
-    <inductionLoop id="JulesDeTroozsquareDetector1" lane="-348746115#0_0" pos="40" freq="50400" file="InductionLoopsStatistics/JulesDeTroozsquareDetector_Output.xml"/>
-    <inductionLoop id="JulesDeTroozsquareDetector2" lane="-348746115#0_1" pos="40" freq="50400" file="InductionLoopsStatistics/JulesDeTroozsquareDetector_Output.xml"/>
-
+    <inductionLoop id="JulesDeTroozsquareDetector" lane="-348746115#0_0" pos="40" freq="50400" file="InductionLoopsStatistics/JulesDeTroozsquareDetector_Output.xml"/>
     
-    <inductionLoop id="SimonBolivarlaanDetector1" lane="8295114#4_0" pos="100" freq="50400" file="InductionLoopsStatistics/SimonBolivarlaanDetector_Output.xml"/>
-    <inductionLoop id="SimonBolivarlaanDetector2" lane="8295114#4_1" pos="100" freq="50400" file="InductionLoopsStatistics/SimonBolivarlaanDetector_Output.xml"/>
+    <inductionLoop id="SimonBolivarlaanDetector" lane="8295114#4_0" pos="100" freq="50400" file="InductionLoopsStatistics/SimonBolivarlaanDetector_Output.xml"/>
 
     <inductionLoop id="MarktstraatDetector" lane="249534774#3_0" pos="50" freq="50400" file="InductionLoopsStatistics/MarktstraatDetector_Output.xml"/>
 
@@ -30,8 +26,7 @@
 
     <inductionLoop id="DestouvellesstraatDetector" lane="-15895245#1_0" pos="40" freq="50400" file="InductionLoopsStatistics/DestouvellesstraatDetector_Output.xml"/>
 
-    <inductionLoop id="KoninginnelaanDetector1" lane="29028533_0" pos="40" freq="50400" file="InductionLoopsStatistics/KoninginnelaanDetector_Output.xml"/>
-    <inductionLoop id="KoninginnelaanDetector2" lane="29028533_1" pos="40" freq="50400" file="InductionLoopsStatistics/KoninginnelaanDetector_Output.xml"/>
+    <inductionLoop id="KoninginnelaanDetector" lane="29028533_0" pos="40" freq="50400" file="InductionLoopsStatistics/KoninginnelaanDetector_Output.xml"/>
 
     <inductionLoop id="KoolbrandersstraatDetector" lane="73992290#0_0" pos="70" freq="50400" file="InductionLoopsStatistics/KoolbrandersstraatDetector_Output.xml"/>
 
@@ -53,8 +48,6 @@
 
 	<inductionLoop id="AntwerpsesteenwegDetector" lane="-444619078#0_0" pos="60" freq="50400" file="InductionLoopsStatistics/AntwerpsesteenwegDetector_Output.xml"/>
 
-	<inductionLoop id="GroendreefDetector1" lane="123488618#2_0" pos="510" freq="50400" file="InductionLoopsStatistics/GroendreefDetector_Output.xml"/>
-	<inductionLoop id="GroendreefDetecto2" lane="123488618#2_1" pos="510" freq="50400" file="InductionLoopsStatistics/GroendreefDetector_Output.xml"/>
-
+	<inductionLoop id="GroendreefDetector" lane="123488618#2_0" pos="510" freq="50400" file="InductionLoopsStatistics/GroendreefDetector_Output.xml"/>
 </additional>
 
