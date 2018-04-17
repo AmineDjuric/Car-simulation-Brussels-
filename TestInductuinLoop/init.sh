@@ -1,6 +1,11 @@
 #!/bin/bash
 
 mkdir /home/SumoStats/
+
+# Le dossier Results va contenir autant de fichiers qu'il y a de détecteurs, 
+# et chaque fichier contiendra les calculs des ecarts fait pour un certain 'n' (une certaine itération)
+mkdir /home/SumoStats/Results/
+
 cd /usr/bin/amine/IL/
 
 endTime=50400
@@ -14,7 +19,7 @@ n=300
 
 # This command will generate a random traffic demand
 
-i=280 # /!\ != 0 !!!
+i=298 # /!\ != 0 !!!
 while [ "$i" -le "$n" ]
 do
 	echo "Step number: $i"
@@ -53,25 +58,25 @@ cd /home/SumoStats/
 
 file1=$"/home/SumoStats/formattedDict.txt/*"
 file2=$"/home/SumoStats/parseXML.py/*"
-
+folder1=$"/home/SumoStats/Results"
 
 for folders in /home/SumoStats/*
 do 
- 	for files in $folders/*
- 	do
- 		if [ "$files" != "$file1" ] && [ "$files" != "$file2" ]
-		then
-			# Cette condition permet de ne pas parcourir le fichier "formattedDict.txt" et "parseXML.py" et
-			# uniquement parcourir le dossiers de chaque itérations qui contiennent les fichiers ".xml" des inductions loops.
-			# on va parser chaque fichier .xml et les comparer les données avec les données réelles.
-
-			iterationNb="$folders"
-			iterationNb=${iterationNb##*/}
-
- 			python3 parseXML.py $files $iterationNb
- 			break
- 		fi
- 	done 
+	if [ "$folders" != "$folder1" ]
+	then
+	 	for files in $folders/*
+	 	do
+	 		if [ "$files" != "$file1" ] && [ "$files" != "$file2" ]
+			then
+				# Cette condition permet de ne pas parcourir le fichier "formattedDict.txt" et "parseXML.py" et
+				# uniquement parcourir le dossiers de chaque itérations qui contiennent les fichiers ".xml" des inductions loops.
+				# on va parser chaque fichier .xml et les comparer les données avec les données réelles.
+				iterationNb="$folders"
+				iterationNb=${iterationNb##*/}
+	 			python3 parseXML.py $files $iterationNb
+	 		fi
+	 	done
+	fi
 done
 
 bash

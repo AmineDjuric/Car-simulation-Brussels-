@@ -42,6 +42,7 @@ detectorName = getDetectorName(XMLfile)
 realDataDict = loadDict("formattedDict.txt")
 
 
+# On parse ensuite le fichier XML en allant cherchant les données désirées
 tree = ET.parse(XMLfile)
 root = tree.getroot()
 child = root.getchildren()
@@ -58,8 +59,7 @@ realNbOfVeh =  realDataDict[detectorName][1] # on récupère le nombre de voitur
 
 result = compute(realSpeed,virtualSpeed)
 
-with open("results.txt",'a') as f2:
-	string = "Result: " + str(result) + ' ; ' + "iterationNb: " + str(iterationNb) + '\n'
+with open("Results/"+detectorName+".txt",'a') as f2:
+	string = "Result: " + str(result) + ' ; ' + "iterationNb: " + str(iterationNb) + " XML file: " + XMLfile + '\n'
 	f2.write(string)
-
 
