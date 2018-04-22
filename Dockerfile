@@ -8,7 +8,7 @@ ENV SUMO_HOME /opt/sumo
 ENV SUMO_USER amine
 
 # Install system dependencies.
-RUN apt-get update && apt-get -qq install wget g++ make libxerces-c-dev libfox-1.6-0 libfox-1.6-dev python nano libproj-dev unzip sudo python3 bc
+RUN apt-get update && apt-get -qq install wget g++ make libxerces-c-dev libfox-1.6-0 libfox-1.6-dev python nano libproj-dev unzip sudo python3 bc python3-matplotlib
 
 # Download and extract source code
 RUN wget http://downloads.sourceforge.net/project/sumo/sumo/version%20$SUMO_VERSION/sumo-src-$SUMO_VERSION.tar.gz

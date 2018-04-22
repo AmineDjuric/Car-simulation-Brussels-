@@ -10,10 +10,10 @@ xhost +local:root && \
 sudo docker run --name="SumoContainer" \
     -it \
     --rm --name SumoContainer \
-	--user=$USER \
+	--user=amine \
     --env="DISPLAY" \
-    --workdir="/home/$USER" \
-    --volume="/home/$USER:/home/$USER" \
+    --workdir="/home/amine" \
+    --volume="/home/amine:/home/amine" \
     --volume="/etc/group:/etc/group:ro" \
     --volume="/etc/passwd:/etc/passwd:ro" \
     --volume="/etc/shadow:/etc/shadow:ro" \
