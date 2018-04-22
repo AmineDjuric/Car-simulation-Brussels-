@@ -2,21 +2,17 @@ import sys
 import pickle
 import xml.etree.ElementTree as ET
 
-# Ce fichier va parser un fichier xml et comparer les données récupérées 
-# avec les données réelles. Le résultat de cette comparaison sera stocker dans un fichier
-
 
 def loadDict(file):
-# Récupère le dictionnaire stocker dans un fichier txt grâce à la bibliothèque pickle
+	# Get back the dictionary containing the real data stored in a file txt thanks to the pickle library
 	with open(file, "rb") as f1:
 		realDataDict = pickle.load(f1)
 
 	return realDataDict
 
 def getDetectorName(NameOfFile):
-	# Récupère le nom du detecteur à partir du fichier
-	# Ce nom de détecteur est la clé du dictionnaire contenant les
-	# données réelles
+	# Get back the name of the detector from the file
+	# This name of the detector is the key of the dictionary containing real data
 	
 	detectorName = XMLfile.split('/')
 	detectorName = detectorName[-1]
@@ -26,40 +22,39 @@ def getDetectorName(NameOfFile):
 
 
 def compute(realSpeed,virtualSpeed):
+
 	return ((float(virtualSpeed) - float(realSpeed))**2 ) / 2
 
 
-# contient le nom du fichier d'output de l'induction loop sur lequel 
-# nous somme en train de travailler
+def parseXML(file):
+	# Parsing of the outputs files of the inductions loops
+	# For more details, see: 
+	# http://sumo.dlr.de/wiki/Simulation/Output/Induction_Loops_Detectors_(E1)#Generated_Output
+
+	tree = ET.parse(file)
+	root = tree.getroot()
+	child = root.getchildren()
+
+	return child[0].attrib # return un dictionnaire avec les attributs du fichier xml.
+	# return a dictionnary with the attributes of the xml file
+
 XMLfile = sys.argv[1]
 iterationNb = int(sys.argv[2]) # on récupère le n° de l'itération
 
 detectorName = getDetectorName(XMLfile)
 
-# 1 ere chose à faire, récupérer le dictionnaire stocké 
-# dans formattedDict.txt et en faire une variable
-
 realDataDict = loadDict("formattedDict.txt")
 
-
-# On parse ensuite le fichier XML en allant cherchant les données désirées
-tree = ET.parse(XMLfile)
-root = tree.getroot()
-child = root.getchildren()
-
-data = child[0].attrib # return un dictionnaire avec les attributs du fichier xml.
+data = parseXML(XMLfile)
 
 virtualSpeed = data['speed']
 virtualNbOfVeh = data['nVehContrib']
 
 realSpeed = realDataDict[detectorName][0]
-realNbOfVeh =  realDataDict[detectorName][1] # on récupère le nombre de voiture qui sont passé durant l'interval (ici 14h -> 50400 sec)
-
-# print("Vistesse reelle",realSpeed,"Vitesse simulee",virtualSpeed)
+realNbOfVeh =  realDataDict[detectorName][1]
 
 result = compute(realSpeed,virtualSpeed)
 
-with open("Results/"+detectorName+".txt",'a') as f2:
-	string = "Result: " + str(result) + ' ; ' + "iterationNb: " + str(iterationNb) + " XML file: " + XMLfile + '\n'
+with open("Results/"+str(iterationNb)+".csv",'a') as f2:
+	string = str(result) + ';' + detectorName + '\n'
 	f2.write(string)
-
