@@ -1,0 +1,29 @@
+<detectors>
+   <detectorDefinition id="det1" lane="26349983#0_0" pos="60"/>
+   <detectorDefinition id="det30" lane="26349983#0_0" pos="100"/>
+   <detectorDefinition id="det2" lane="26350343#0_0" pos="100"/>
+   <detectorDefinition id="det3" lane="123488612#1_0" pos="10"/>
+   <detectorDefinition id="det4" lane="293271347#1_0" pos="100"/>
+   <detectorDefinition id="det5" lane="32759117#0_0" pos="50"/>
+   <detectorDefinition id="det6" lane="-348746115#0_0" pos="30"/>
+   <detectorDefinition id="det7" lane="8295114#4_0" pos="90"/>
+   <detectorDefinition id="det8" lane="249534774#3_0" pos="40"/>
+   <detectorDefinition id="det9" lane="23230952#2_0" pos="230"/>
+   <detectorDefinition id="det10" lane="-26349983#5_0" pos="70"/>
+   <detectorDefinition id="det11" lane="348453262#2_0" pos="60"/>
+   <detectorDefinition id="det12" lane="32759215#1_0" pos="50"/>
+   <detectorDefinition id="det13" lane="-15895245#1_0" pos="30"/>
+   <detectorDefinition id="det14" lane="29028533_0" pos="30"/>
+   <detectorDefinition id="det15" lane="73992290#0_0" pos="60"/>
+   <detectorDefinition id="det16" lane="41220240#1_0" pos="30"/>
+   <detectorDefinition id="det17" lane="-22262322#0_0" pos="40"/>
+   <detectorDefinition id="det18" lane="404614546#0_0" pos="70"/>
+   <detectorDefinition id="det19" lane="14590428_0" pos="50"/>
+   <detectorDefinition id="det20" lane="417704274_0" pos="10"/>
+   <detectorDefinition id="det21" lane="-22650694_0" pos="30"/>
+   <detectorDefinition id="det22" lane="147940738#0_0" pos="80"/>
+   <detectorDefinition id="det23" lane="-411776530#1_0" pos="30"/>
+   <detectorDefinition id="det24" lane="-444619078#0_0" pos="50"/>
+   <detectorDefinition id="det25" lane="123488618#2_0" pos="500"/>
+</detectors>
+

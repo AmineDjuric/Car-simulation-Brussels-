@@ -1,0 +1,10 @@
+Loading configuration... done.
+Loading net-file from 'map.net.xml'... done (1ms).
+Loading additional-files from 'map.poly.xml'... done (6ms).
+Loading additional-files from 'pointsOfInterest.xml'... done (6ms).
+Loading additional-files from 'emitters.rou.xml'... 
+Error: Invalid reference to route '19802949#0_to_44293389#1' in route distribution 'det1'.
+Error: Invalid reference to route '19802949#0_to_19802949#1' in route distribution 'det1'.
+Error: Route distribution 'det1' is empty.
+Loading of additional-files failed.
+Quitting (on error).
