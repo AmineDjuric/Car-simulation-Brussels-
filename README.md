@@ -23,24 +23,17 @@ sudo docker run --name="SumoContainer" \
     /bin/bash
 ```
 
-3. When the simulation ends, you have to open another terminal (without closing the docker !) and type:
-
-( - `containterId=$(sudo docker ps -aq --filter name=SumoContainer)`
-
- - `sudo docker cp $containterId:/home/SumoStats/ /home/amine/Desktop`
-
-)
-
-
- -> `sudo docker cp SumoContainer:/home/SumoStats/ /home/amine/Desktop`
-
-
 
 ## Useful commands : 
-- Copy from host to container: `sudo docker cp /path/of/file/to/copy/filename containerID:/destination/in/container/ `
+- To get the container id : `containterId=$(sudo docker ps -aq --filter name=SumoContainer)`
 
-- Copy from container to host: `sudo docker cp containerID:/path/of/file/to/copy/filename /destination/in/host/`
+- Copy from host to container: `sudo docker cp /path/of/file/to/copy/filename $containterId:/destination/in/container/ `
 
+- Copy from container to host: `sudo docker cp $containterId:/path/of/file/to/copy/filename /destination/in/host/`
+
+- To stop the container : `sudo docker stop SumoContainer`
+
+- To erase all the docker images on you computer (not only SumoContainer's image) : `sudo docker system prune -a` 
 
 
 
