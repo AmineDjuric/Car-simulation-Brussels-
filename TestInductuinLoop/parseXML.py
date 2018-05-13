@@ -38,8 +38,11 @@ def parseXML(file):
 	return child[0].attrib # return un dictionnaire avec les attributs du fichier xml.
 	# return a dictionnary with the attributes of the xml file
 
+
+
 XMLfile = sys.argv[1]
-iterationNb = int(sys.argv[2]) # on récupère le n° de l'itération
+folderNb = sys.argv[2]
+subFolderNb = sys.argv[3]
 
 detectorName = getDetectorName(XMLfile)
 
@@ -48,13 +51,22 @@ realDataDict = loadDict("formattedDict.txt")
 data = parseXML(XMLfile)
 
 virtualSpeed = data['speed']
-virtualNbOfVeh = data['nVehContrib']
+#virtualNbOfVeh = data['nVehContrib']
 
 realSpeed = realDataDict[detectorName][0]
-realNbOfVeh =  realDataDict[detectorName][1]
+#realNbOfVeh =  realDataDict[detectorName][1]
+
+
+if float(virtualSpeed) < 0:
+	virtualSpeed = 13.8 # quand on a pas de valeur pour la virtual speed (car détecteur à -1, on le met à 50km/h -> 13.8 m/s)
 
 result = compute(realSpeed,virtualSpeed)
 
-with open("Results/"+str(iterationNb)+".csv",'a') as f2:
+
+with open("Results1/"+ folderNb + '__' + subFolderNb +".csv",'a') as f2:
 	string = str(result) + ';' + detectorName + '\n'
 	f2.write(string)
+
+with open("Results2/"+ folderNb + '__' + subFolderNb +".csv",'a') as f3:
+	string = str(virtualSpeed) + ';' + detectorName + '\n'
+	f3.write(string)

@@ -7,7 +7,14 @@
 import sys
 
 
-iterationNb = sys.argv[1]
-with open("Results/"+iterationNb+".csv",'w',encoding='utf-8') as f:
+folderNb = sys.argv[1]
+subFolderNb = sys.argv[2]
+
+with open("Results1/"+ folderNb + '__' + subFolderNb +".csv",'w',encoding='utf-8') as f:
+	# print("Dans writeFirstLine.py:","Results/"+iterationNb+".csv")
+	f.write(",Result;DetectorName;" + '\n')
+
+
+with open("Results2/"+ folderNb + '__' + subFolderNb +".csv",'w',encoding='utf-8') as f:
 	# print("Dans writeFirstLine.py:","Results/"+iterationNb+".csv")
 	f.write(",Result;DetectorName;" + '\n')

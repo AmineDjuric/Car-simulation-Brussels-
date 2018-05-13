@@ -13,7 +13,8 @@ mkdir /home/SumoStats/
 
 # This folder will contain as many .csv files that there are iterations.
 # For examples, at the 300th iteration there will be a file named 300.csv (more details will be later supplied)
-mkdir /home/SumoStats/Results/
+mkdir /home/SumoStats/Results1/
+mkdir /home/SumoStats/Results2/
 
 # This folder contains all the files in from TestInductionLoop directory
 # (It contains all the files necessary for the simulation)
@@ -24,38 +25,45 @@ cd /usr/bin/amine/IL/
 endTime=50400
 beginTime=0
 
-# To let n vehicles depart between times beginTime and endTime set the options :
-# -b beginTime -e endTime -p ((endTime - beginTime) / n)
-n=300 
-i=298 # /!\ != 0 !!!
 
-# if $i is equal to 1 and $n to 1000:
-# this loop will run 1000 simulation with for the first lauch 1 vehicle generated and for the last 1000 vehicles
-# $i is the step and also the number of vehicles generated at the step of the loop
+n=1
+nmax=100
+i=1 # /!\ != 0 !!!
+k=3
 
-while [ "$i" -le "$n" ]
+while [ "$n" -le "$nmax" ]
 do
-	echo "Step number: $i"
+	mkdir /home/SumoStats/n_$n/
 
-	# float substraction (mandatory to use bc command)
-	# Why float ? because --period (-p) take a float number in parameter
-	var="$(echo "$((endTime-beginTime)) / $i" | bc -l)"
-	
-	# This command will generate a random traffic demand
-	# See the file: randomTripsOptions.txt in the TestInductionLoop directory for more details
-	python /opt/sumo/tools/randomTrips.py -n map.net.xml -r map.rou.xml -b $beginTime -e $endTime -p $var --trip-attributes="departLane=\"best\" departPos=\"random\""
-	
-	# We run the simulation with additional parameters specified in the config file named map.sumo.cfg
-	sumo map.sumo.cfg
+	i=1
+	while [ "$i" -le "$k" ]
+	do
+		mkdir /home/SumoStats/n_$n/i_$i/
+		echo "#############################################################"
+		echo "n = $n"
+		echo "simulation numéro: $i"
+		echo "#############################################################"
 
-	# All the statistics from the induction loops are automatically send to the InductionLoopsStatistics directory
-	# See the "file=" options in the inductionLoops.xml file.
+		# float substraction (mandatory to use bc command)
+		# Why float ? because --period (-p) take a float number in parameter
+		var="$(echo "$((endTime-beginTime)) / $n" | bc -l)"
+		# This command will generate a random traffic demand
+		# See the file: randomTripsOptions.txt in the TestInductionLoop directory for more details
+		python /opt/sumo/tools/randomTrips.py -n map.net.xml -r map.rou.xml -b $beginTime -e $endTime -p $var --vehicle-class bus --trip-attributes="departLane=\"random\" departSpeed=\"max\" departPos=\"random\""
+		
+		# We run the simulation with additional parameters specified in the config file named map.sumo.cfg
+		sumo map.sumo.cfg
 
-	# We create a directory (with the iteration number as name) for each iteration.
-	# Each directory contains the inductions loops output files (.xml) for this iteration. 
-	mkdir /home/SumoStats/$i/
-	mv /usr/bin/amine/IL/InductionLoopsStatistics/* /home/SumoStats/$i/
-	i=$((i+1))
+		# All the statistics from the induction loops are automatically send to the InductionLoopsStatistics directory
+		# See the "file=" options in the inductionLoops.xml file.
+
+		# We create a directory (with the iteration number as name) for each iteration.
+		# Each directory contains the inductions loops output files (.xml) for this iteration. 
+		mv /usr/bin/amine/IL/InductionLoopsStatistics/* /home/SumoStats/n_$n/i_$i/
+
+		i=$((i+1))
+	done
+	n=$((n+1))
 done
 
 # We delete the file InductionLoopsStatistics, which is empty and which serves only temporarily to store the data of the inductions loops during the simulation
@@ -80,47 +88,49 @@ python3 store.py
 mv formattedDict.txt /home/SumoStats/
 mv parseXML.py /home/SumoStats/
 mv writeFirstLine.py /home/SumoStats/
-mv displayResults.py /home/SumoStats/Results/
+cp displayResults.py /home/SumoStats/Results1/
+mv displayResults.py /home/SumoStats/Results2/
 
 cd /home/SumoStats/
 
-file1=$"/home/SumoStats/formattedDict.txt/*"
-file2=$"/home/SumoStats/parseXML.py/*"
-file3=$"/home/SumoStats/writeFirstLine.py/*"
-folder1=$"/home/SumoStats/Results"
+folder1=$"/home/SumoStats/Results1/displayResults.py"
+folder2=$"/home/SumoStats/Results2/displayResults.py"
 
 # We are now in /home/SumoStats/
 # This loop is going to parse all the files .xml of statistics of the inductions loops (previously stored in the SumoStats directory) 
 # and to get back these data to compare them with the real data. Once the deviation value is calculated between the real speed and the virtual speed 
 # (for every detector), we store the result in one .csv file (one per iteration) having for name, the number of the iteration.
-# If you want to see the one of thes files type: nano Results/300.csv (example for the 300th iteration)
+# If you want to see the one of thes files type: nano Results1/300.csv (example for the 300th iteration)
 
-for folders in /home/SumoStats/*
+for folders in /home/SumoStats/*/*
 do 
-	if [ "$folders" != "$folder1" ]
+	if [ "$folders" != "$folder1" ] && [ "$folders" != "$folder2" ]
 	then
+		
 		iterationNb="$folders"
-		iterationNb=${iterationNb##*/}
+		subFolderNb=${iterationNb##*/}
 
+		tmp=${iterationNb##*/SumoStats}
+		tmp2=${tmp%/*}
+		folderNb=${tmp2:1} 
+		
 		if [ "$iterationNb" != "formattedDict.txt" ] && [ "$iterationNb" != "parseXML.py" ] && [ "$iterationNb" != "writeFirstLine.py" ]
 		then
-			python3 writeFirstLine.py $iterationNb
+			python3 writeFirstLine.py $folderNb $subFolderNb
 		fi
 
-	 	for files in $folders/*
-	 	do
-	 		if [ "$files" != "$file1" ] && [ "$files" != "$file2" ] && [ "$files" != "$file3" ]
-			then
-	 			python3 parseXML.py $files $iterationNb
-	 		fi
+ 		for files in $folders/*
+ 		do
+ 			python3 parseXML.py $files $folderNb $subFolderNb
 	 	done
 	fi
 done
 
 # The final stage thus is to calculate then the average of the results of all the detectors by iteration and to show them 
 # in a graph to determine the minimum average gap.
-cd Results
-python3 displayResults.py
+
+cd Results1/
+python3 displayResults.py $nmax $k
 
 bash
  
