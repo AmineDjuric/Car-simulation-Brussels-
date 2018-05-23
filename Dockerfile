@@ -35,32 +35,23 @@ RUN export SUMO_HOME="/opt/sumo"
 
 RUN mkdir /usr/bin/amine
 
-RUN mkdir /usr/bin/amine/EntireBxl
+RUN mkdir /usr/bin/amine/DFROUTER/
 
-RUN mkdir /usr/bin/amine/BxlCenter
-
-ADD map/* /usr/bin/amine/EntireBxl/
-
-ADD map2/* /usr/bin/amine/BxlCenter/
-
-RUN mkdir /usr/bin/amine/testDFROUTER/
-
-ADD TestDFROUTER/* /usr/bin/amine/testDFROUTER/
-
-RUN mkdir /usr/bin/amine/portDeBruxelles
-
-ADD PortDeBruxelles/* /usr/bin/amine/portDeBruxelles/
+ADD TestDFROUTER/* /usr/bin/amine/DFROUTER/
 
 ADD TestInductionLoop/* /usr/bin/amine/IL/
 
 RUN mkdir /usr/bin/amine/IL/InductionLoopsStatistics/
 
-#RUN /usr/bin/amine/portDeBruxelles/./osm2Sumo.sh
-
 RUN /usr/bin/amine/IL/./osm2Sumo.sh
-
-#RUN /usr/bin/amine/testDFROUTER/./osm2Sumo.sh 
 
 ENTRYPOINT ["/usr/bin/amine/IL/init.sh"]
 
-#ENTRYPOINT ["/usr/bin/amine/testDFROUTER/init.sh"]
+#RUN /usr/bin/amine/DFROUTER/./osm2Sumo.sh
+
+#ENTRYPOINT ["/usr/bin/amine/DFROUTER/init.sh"]
+
+
+
+
+
