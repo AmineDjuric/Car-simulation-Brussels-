@@ -26,10 +26,10 @@ endTime=50400
 beginTime=0
 
 
-n=1
-nmax=100
-i=1 # /!\ != 0 !!!
-k=3
+n=1 
+nmax=50  # max number of generated vehicles 
+i=1      # /!\ != 0 !!!
+k=3      # how much time we run the simulation with n cars generated
 
 while [ "$n" -le "$nmax" ]
 do
@@ -40,7 +40,7 @@ do
 	do
 		mkdir /home/SumoStats/n_$n/i_$i/
 		echo "#############################################################"
-		echo "n = $n"
+		echo "number of cars generated = $n"
 		echo "simulation numéro: $i"
 		echo "#############################################################"
 
